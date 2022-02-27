@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -9,19 +10,115 @@
 
 body {
     font-size: 100%;
-    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background-image: linear-gradient(to right, #292525 0%, black 100%);
     color: white;
 }
 
+
 header {
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
-    
+    padding: 25px;
+}
+     
+.podcast-name {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+
 }
 
-.tt-1 {
-    flex-direction: column;
-    line-height: 0px
+.navegacao {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 100px;
 }
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(153, 3, 3);
+    transition: 0.5s all;
+}
+
+.ajude-borda {
+    border: 3px solid rgb(153, 3, 3);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.ajude-borda:hover {
+    background-color: rgb(153, 3, 3);
+    color: white;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+h3 {
+    font-family: 'Righteous', cursive;
+    font-weight: 300;
+    font-size: 70px;
+    line-height: 70px;
+    color: rgb(153, 3, 3);
+}
+
+.logo-tt {
+    height: 450px;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.formulario {
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+.formulario-botao {
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    width: 40%;
+    background-color: rgb(153, 3, 3);
+}
+.formulario-botao:hover {
+   cursor: pointer;
+   color: white;
+}
+
+
+
+
+
+footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 70px;
+}
+
+
