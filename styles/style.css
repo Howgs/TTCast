@@ -139,6 +139,7 @@ footer {
     margin-top: 50px;
     border-radius: 30px;
     gap: 20px;
+    box-shadow: 30px 40px 30px -40px white;
 }
 
 .apresentacao-imagem {
